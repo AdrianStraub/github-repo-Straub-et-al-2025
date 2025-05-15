@@ -7623,9 +7623,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Try: Integrate data published in Straub et al. 2023, Recruitment of epitope-specific T cell clones with a low-avidity threshold supports efficacy against mutational escape upon re-infection, Immunity</p>
+<p>Tried Integration of data published in Straub et al. 2023, Recruitment of epitope-specific T cell clones with a low-avidity threshold supports efficacy against mutational escape upon re-infection, Immunity</p>
 <ul>
-<li>experiments in Straub et al., 2023 were sequenced with higher sequencing depth. Data integration and batch correction not possible between data published in 2023 and novel sequencing data - Data presented in 2023 was omitted from downstream analysis due to technical differences</li>
+<li>scRNAseq data presented in Straub et al., 2023 - data integration and batch correction/harmonization not possible due to technical differences in sequencing - Data presented in 2023 was omitted from downstream analysis</li>
 </ul>
 </div>
 </div>
@@ -7830,6 +7830,9 @@ mult_pos_us
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Load cell barcode file annotating reactive TCR clonotypes from Straub et al, 2023, Immunity</p>
+<ul>
+<li>can be omitted, single cells are removed later on</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8164,7 +8167,7 @@ Stored clonal assignments in `adata.obs["clone_id_aa"]`.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Sequencing runs between 2023 publication and novel data have different gex sequencing depths - requires individual processing</p>
+<p>Single cells from Straub et al. 2023 are removed from further analysis, since GEX could not be harmonized between data</p>
 </div>
 </div>
 </div>
@@ -8246,7 +8249,7 @@ Stored clonal assignments in `adata.obs["clone_id_aa"]`.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="GEX-normalization-and-feature-selection-novel-sequencing-data">GEX normalization and feature selection novel sequencing data<a class="anchor-link" href="#GEX-normalization-and-feature-selection-novel-sequencing-data">¶</a></h2>
+<h2 id="GEX-normalization-and-feature-selection:-novel-sequencing-data">GEX normalization and feature selection: novel sequencing data<a class="anchor-link" href="#GEX-normalization-and-feature-selection:-novel-sequencing-data">¶</a></h2>
 </div>
 </div>
 </div>
