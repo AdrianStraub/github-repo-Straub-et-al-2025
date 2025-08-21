@@ -1,4 +1,4 @@
-Data analysis:
+Raw data outputs of data included in the letter Nurture over nature in fate decisions of CD8+ T cell receptor twins:
 
 IMMUNITY_01_Preprocessing_Demultiplexing displays data loading from cellranger output of raw sequencing data alongside demultiplexing via HashSolo and CITESeq of individual mouse donors.<br/>Single cells and genes are filtered via calculation of QC metrics (mitochondrial genes and gene counts), as recommened by current single-cell best practrices (Heumos, L., Schaar, A.C., Lance, C. et al. Best practices for single-cell analysis across modalities. Nat Rev Genet (2023)) (see https://www.sc-best-practices.org/preamble.html)<br/>
 <br/>
