@@ -1,4 +1,4 @@
-Data analysis:
+Raw data outputs of data included in the letter Nurture over nature in fate decisions of CD8+ T cell receptor twins:
 
 IMMUNITY_01_Preprocessing_Demultiplexing displays data loading from cellranger output of raw sequencing data alongside demultiplexing via HashSolo and CITESeq of individual mouse donors.<br/>Single cells and genes are filtered via calculation of QC metrics (mitochondrial genes and gene counts), as recommened by current single-cell best practrices (Heumos, L., Schaar, A.C., Lance, C. et al. Best practices for single-cell analysis across modalities. Nat Rev Genet (2023)) (see https://www.sc-best-practices.org/preamble.html)<br/>
 <br/>
@@ -7,3 +7,5 @@ IMMUNITY_01_Preprocessing_SoupX_R displays further proprocessing of the single-c
 IMMUNITY_02_Concatenation_and_feature_selection displays concatenation of processed single-cell data, normalizatzion of gene expression, feature selection and batch correction.
 <br/><br/>
 IMMUNITY_03_figures displays data analysis as presented in the submitted figures and phenotype enrichment score calculations as described by Abdullah et al. (Abdullah L, Emiliani FE, Vaidya CM, Stuart H, Musial SC, Kolling FW, Obar JJ, Rosato PC, Ackerman ME, Song L, McKenna A, Huang YH. The endogenous antigen-specific CD8+ T cell repertoire is composed of unbiased and biased clonotypes with differential fate commitments. Immunity. 2025 Mar 11;58(3):601-615.e9.)
+<br/><br/>
+Supplemental methods: Material and methods part of the letter Nurture over nature in fate decisions of CD8+ T cell receptor twins
